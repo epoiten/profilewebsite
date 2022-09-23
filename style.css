@@ -93,6 +93,18 @@ header{
     text-align: center;
 }
 
+header .logo {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    padding: 0;
+}
+
+header .logo img{
+    resize: 50%;
+
+}
+
 header .user img{
     height:17rem;
     width:17rem;
@@ -175,6 +187,10 @@ header .navbar ul li a:hover{
     padding: 1rem 0;
 }
 
+.home p span{
+    color:var(--yellow);
+}
+
 .about .row{
     display: flex;
     align-items: center;
@@ -201,6 +217,15 @@ header .navbar ul li a:hover{
     padding:0 .5rem;
 }
 
+.about .row .intro{
+    font-size: 2rem;
+    color:white;
+    padding:2rem;
+    line-height: 3rem;
+    font-weight: normal;
+    text-align: justify;
+}
+
 .about .row .counter{
     flex:1 1 48rem;
     display: flex;
@@ -209,21 +234,21 @@ header .navbar ul li a:hover{
 }
 
 .about .row .counter .box{
-    width:20rem;
+    width:15rem;
     background:#222;
     text-align: center;
+    align-items: center;
     padding: 2rem;
     margin:2rem;
+}
+
+.about .row .counter .box img{
+    width:100%;
 }
 
 .about .row .counter .box span{
     font-size: 4rem;
     color:var(--yellow);
-}
-
-.about .row .counter .box h3{
-    font-size: 2rem;
-    color:#fff;
 }
 
 .about .row .counter .badge{
@@ -249,7 +274,13 @@ header .navbar ul li a:hover{
     padding-left: 4rem;
     border-left: .2rem solid #fff;
     position: relative;
+    
 }
+
+.education .box-container .box .badge{
+    
+}
+
 
 .education .box-container .box span{
     font-size: 1.3rem;
@@ -299,12 +330,22 @@ header .navbar ul li a:hover{
 }
 
 .portfolio .box-container .box{
-    height: 22rem;
-    width:26rem;
+    height: 26rem;
+    width:34rem;
     border-radius: 1rem;
     margin:2rem;
     overflow: hidden;
     cursor: pointer;
+    background-color: #333;
+    padding: 1rem;
+}
+
+.portfolio .box-container .box h3{
+    color: var(--yellow);
+}
+
+.portfolio .box-container .box h4{
+    color: white;
 }
 
 .portfolio .box-container .box img{
@@ -337,12 +378,14 @@ header .navbar ul li a:hover{
 }
 
 .project .box-container .box{
-    height: 20rem;
-    width:26rem;
+    height: 24rem;
+    width:34rem;
     border-radius: 1rem;
     margin:2rem;
     overflow: hidden;
     cursor: pointer;
+    background-color: #333;
+    padding: 1rem;
 }
 
 .project .box-container .box img{
@@ -413,6 +456,22 @@ header .navbar ul li a:hover{
 .contact .row .content .info h3 i{
     padding-right: 1rem;
     color:var(--yellow);
+}
+
+.contact .row .content .info .social{
+    display: flex;
+}
+
+.contact .row .content .info .social .box-contact{
+    display: flex;
+    width:8rem;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+    margin:1rem;
+}
+.contact .row .content .info .social .box-contact a img{
+    width: 100%;
 }
 
 .top{
@@ -550,3 +609,11 @@ header .navbar ul li a:hover{
     width: 100%;
     resize: both;
  }
+
+ .hero img:hover {
+    width: 110%;
+    transform: rotate(5deg);
+    transition-delay: 0.2s;
+    transition-duration: 0.5s;
+ }
+
