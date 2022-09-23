@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
 :root{
-    --yellow:#fab13d;
+    --yellow: orange;
 }
 
 *{
@@ -40,6 +40,7 @@ body{
     background:#111;
     overflow-x: hidden;
     padding-left: 35rem;
+    background-image: url(images/background.jpg);
 }
 
 section{
@@ -71,7 +72,7 @@ section{
     margin:0 6rem;
     font-size: 4rem;
     padding:1rem;
-    border-bottom: .1rem solid #fff4;
+    border-bottom: .4rem solid #fff4;
     color:#fff;
 }
 
@@ -98,10 +99,11 @@ header .logo {
     left: 1rem;
     top: 1rem;
     padding: 0;
+    width: 10rem;
 }
 
 header .logo img{
-    resize: 50%;
+    width: 100%;
 
 }
 
@@ -111,7 +113,7 @@ header .user img{
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border:.7rem solid var(--yellow);
+    border:.3rem solid var(--yellow);
 }
 
 header .user .name{
@@ -121,7 +123,7 @@ header .user .name{
 
 header .user .post{
     font-size: 2rem;
-    color:#eee;
+    color: var(--yellow);
 }
 
 header .navbar{
@@ -243,7 +245,7 @@ header .navbar ul li a:hover{
 }
 
 .about .row .counter .box img{
-    width:100%;
+    width:50%;
 }
 
 .about .row .counter .box span{
@@ -271,13 +273,12 @@ header .navbar ul li a:hover{
 .education .box-container .box{
     width:27rem;
     margin:4rem 1rem;
-    padding-left: 4rem;
-    border-left: .2rem solid #fff;
+    padding: 4rem;
+    border-left: .2rem solid var(--yellow);
     position: relative;
-    
-}
-
-.education .box-container .box .badge{
+    background-color: rgb(29, 29, 29);
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
     
 }
 
@@ -292,7 +293,7 @@ header .navbar ul li a:hover{
 
 .education .box-container .box h3{
     font-size: 2rem;
-    color:#fff;
+    color:var(--yellow);
     padding-top: 1.5rem;
 }
 
@@ -421,7 +422,8 @@ header .navbar ul li a:hover{
 .contact .row form .box{
     padding:1.5rem;
     margin:1rem 0;
-    background:#3333;
+    background:#1a1a1a;
+    border: .1rem solid var(--yellow);
     color:#fff;
     text-transform: none;
     font-size: 1.7rem;
