@@ -8,6 +8,11 @@
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
+    <!--Font Alternative-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
     <!-- custom css file link  -->
     <link rel="stylesheet" href="style.css">
 
@@ -26,12 +31,12 @@
 
     <nav class="navbar">
         <ul>
-            <li><a href="#home">home</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#education">education</a></li>
-            <li><a href="#project">project</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#project">Project</a></li>
             <li><a href="#portfolio">vLogs</a></li>
-            <li><a href="#contact">contact</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
@@ -44,7 +49,7 @@
 <!-- home section starts  -->
 
 <section class="home" id="home">
-
+<div class="hero">
     <h3>Moin!</h3>
     <h1>I'm <span>Roner Chichirita</span></h1>
     <p>A simple person with peculiar thoughts</p>
@@ -52,8 +57,11 @@
     <p>UX/UI Designer</p>
     <p>Aspiring Programmer</p>
     <br>
-    <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
-
+    <a href="#about"><button class="btn">About Me <i class="fas fa-user"></i></button></a>
+</div>
+<div class="hero">
+    <img src="images/hero2.png" alt="">
+</div>
 </section>
 
 <!-- home section ends -->
@@ -62,33 +70,34 @@
 
 <section class="about" id="about">
 
-<h1 class="heading"> <span>about</span> me </h1>
+<h1 class="heading"> <span>About</span> Me </h1>
 
 <div class="row">
 
     <div class="info">
-        <h3> <span> name : </span> Roner Chichirita </h3>
-        <h3> <span> qualification : </span> BS Nursing </h3>
-        <h3> <span> post : </span> UX/UI Designer, Frontend Developer </h3>
-        <h3> <span> language : </span> English, German, Filipino, Hiligaynon </h3>
-        <a href="#"><button class="btn"> download CV <i class="fas fa-download"></i> </button></a>
+        <p class="about"><span>I am a Filipino currently based in Hamburg. I graduated with Bachelor of Science in Nursing in the year 2012 from West Visayas State University. I did a year volunteer work in different hospitals in the Philippines before working in a Psyciatric Facility in the Kingdom of Saudi Arabia for 2 years. While in Saudi Arabia, I voluntered to be a multi media coordinator in an underground Church service where I designed Typography content honed my skills in Photoshop and desingning. I also served as a translator to English language for Chruch attendees who do not speak the Filipino language. Currently, I am working as a staff nurse in a surgical ward in one of the biggest hospitals in Hamburg since 2018. </span></p>
+        <br>
+        <p class="about">I possess a positive, energetic approach to working collaboratively with others, solving problems and provide evidence-based, and holistic approach client-centered care and services. Within my nursing education and clinical experiences, I have the privilage of working in a wide variety of health-care settings. Now, my interest is on the IT sector and I am expanding my role as web developer. Since learning about Redi School of Digital Integration, I took IT courses that opened variety of oppurtunities for me to lear new things and grow as an individual.</p>
+        <br>
+        <p class="about">My commitment to life long learning is without question and I believe that I would be a fit candidate for any role in the IT sector. I look forward to discuss with you my suitability for the position further. Feel free to download my CV below and contact me. </p>
+        <br>
+        <a href="#"><button class="btn"> Download CV <i class="fas fa-download"></i> </button></a>
+        <br>
+        <br>
+        <h3> <span> Language : </span> English, German, Filipino, Hiligaynon </h3>
+        <h3> <span> Skills : </span> Figma, Photoshop, HTML, CSS </h3>
     </div>
 
     <div class="counter">
 
         <div class="box">
             <span>7+</span>
-            <h3>years of clinical experience</h3>
+            <h3>years of Clinical Experience</h3>
         </div>
 
         <div class="box">
             <span>10+</span>
             <h3>Projects completed</h3>
-        </div>
-
-        <div class="box">
-            <span>20+</span>
-            <h3>happy clients</h3>
         </div>
     </div>
 
@@ -102,7 +111,7 @@
 
 <section class="education" id="education">
 
-<h1 class="heading"> my <span>education</span> </h1>
+<h1 class="heading"> My <span>Education</span> </h1>
 
 <div class="box-container">
 
@@ -112,7 +121,19 @@
         <h3>HTML CSS Basic</h3>
         <p><strong>ReDI School of Digital Integration</strong></p>
         <p>December 2022</p>
+        <img src="images/ReDI+School+Logo.png">
+    </div>
 
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2022</span>
+        <h3>Networking Basics</h3>
+        <p><strong>Cisco Networking Academy</strong></p>
+        <p><strong>Skills for All</strong></p>
+        <p>September 2022</p>
+        <div class="badge">
+            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="9fbafee4-beef-4a8f-a002-0a1e9f37a6fc" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+        </div>
     </div>
 
     <div class="box">
@@ -121,6 +142,7 @@
         <h3>UX/UI Design Basic</h3>
         <p><strong>ReDI School of Digital Integration</strong></p>
         <p>May 2022</p>
+        <img src="images/ReDI+School+Logo.png">
     </div>
 
     <div class="box">
@@ -130,6 +152,9 @@
         <p><strong>ReDI School of Digital Integration</strong></p>
         <p><strong>Cisco Networking Academy</strong></p>
         <p>April 2022</p>
+        <div class="badge">
+            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="5c537ed8-acd7-4f92-96d6-c4060177926c" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+        </div>
     </div>
 
     <div class="box">
@@ -137,6 +162,7 @@
         <span>2018</span>
         <h3>Deutsch B2</h3>
         <p><strong>Tandem Language & Training Center</strong></p>
+        <img src="images/Tandem.png">
     </div>
 
     <div class="box">
@@ -144,6 +170,7 @@
         <span>2008 - 2012</span>
         <h3>BS in Nursing</h3>
         <p><strong>West Visayas State University</strong></p>
+        <img src="images/WVSU-MinLogo-2.png">
     </div>
 
 
@@ -158,24 +185,25 @@
 
 <section class="project" id="project">
 
-    <h1 class="heading"> my <span>Projects</span> </h1>
+    <h1 class="heading"> My <span>Projects</span> </h1>
     
+    <p class="about">Click the boxes below and you will be directed to Behance that contains my sample outputs.</p>
     <div class="box-container">
     
         <div class="box">
-            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/78450259780477.5a2f2db7e6bdc.jpg">
+            <a href="https://www.behance.net/gallery/59780477/Let-Love/modules/351488747" target="_blank"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/78450259780477.5a2f2db7e6bdc.jpg"></a>
         </div>
     
         <div class="box">
-            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/57aa5653312983.592fcd8293dbd.jpg">
+            <a href="https://www.behance.net/gallery/53312983/Discovering-Gods-Plan/modules/314632039" target="_blank"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/57aa5653312983.592fcd8293dbd.jpg"></a>
         </div>
     
         <div class="box">
-            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/567e2e44770161.581d4c8b8ff9d.jpg">
+            <a href="https://www.behance.net/gallery/44770161/The-Power-of-Faith-CCPIMI-Anniversary-2016/modules/268327651" target="_blank"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/567e2e44770161.581d4c8b8ff9d.jpg"></a>
         </div>
     
         <div class="box">
-            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/21cb3944770505.581d5229a8091.jpg">
+            <a href="https://www.behance.net/gallery/44770505/Others-Unspecified/modules/268329571" target="_blank"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/21cb3944770505.581d5229a8091.jpg"></a>
         </div>
     
     </div>
@@ -189,32 +217,65 @@
 
 <section class="portfolio" id="portfolio">
 
-<h1 class="heading"> my <span>vlogs</span> </h1>
+<h1 class="heading">vLogs <span>Ronerology</span> </h1>
+
+
+<p class="vlog">Personal vLog</p>
+
 
 <div class="box-container">
 
     <div class="box">
-        <iframe width=100% height=100% src="https://www.youtube.com/embed/7S2ijmjtE_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div><iframe width=100% height=90% src="https://www.youtube.com/embed/7S2ijmjtE_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <br>
+        <h4 style="color:white;">vlog #1 - What do you like about Hamburg?</h4>
+        <br>
+        <h5 style="color:white;">Hello 2021! I and my close friends in Hamburg strolled the port of Hafen City.
+        </h5>
     </div>
 
     <div class="box">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/-ugLr8k6NVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/-ugLr8k6NVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div>
+        <br>
+        <h4 style="color:white;">vlog #2 - What is your New Year Resolution (2021)</h4>
+        <br>
+        <h5 style="color:white;">Me and my friends talk about our New Year Resolution for 2021.
+        </h5>
+        </div>
+    
     </div>
 
     <div class="box">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/XQL0fqfhVgI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/XQL0fqfhVgI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <br>
+        <h4 style="color:white;">vlog #3 Proposal in Alster Lake HH</h4>
+        <br>
+        <h5 style="color:white;">A surprise Engagement  Plan in Alster HH.</h5>
     </div>
 
     <div class="box">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/zmHUFJHdyZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/zmHUFJHdyZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <br>
+        <h4 style="color:white;">vlog #4 Travel to Böhler Strand</h4>
+        <br>
+        <h5 style="color:white;">The newly engaged couple and her popular sister decided to travel away from Hamburg.  Of course,  Roner has to tag along.</h5>
     </div>
 
     <div class="box">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/XRkoq2eR8p4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/XRkoq2eR8p4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <br>
+        <h4 style="color:white;">vlog #5 Roner in Hannover</h4>
+        <br>
+        <h5 style="color:white;">Freda invited me to go to Hannover to visit her friends. Ofcourse I have to play Mahjong and I have to learn it ASAP.</h5>
     </div>
 
     <div class="box">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/6Anmss_PaCA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/6Anmss_PaCA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <br>
+        <h4 style="color:white;">vlog #7. I'm Yours. Ukalele Session in a Camper.</h4>
+        <br>
+        <h5 style="color:white;">In life, seldom you can find friends you can share moments like this, gather together in a camper with ukalele on the side and singing I'm Yours, coz nothing gonna stop us but divine intervention! Taken February 27, 2021.</h5>
     </div>
 
 </div>
@@ -228,13 +289,13 @@
 
 <section class="contact" id="contact">
 
-<h1 class="heading"> <span>contact</span> me </h1>
+<h1 class="heading"> <span>Contact</span> Me </h1>
 
 <div class="row">
 
     <div class="content">
 
-        <h3 class="title">contact info</h3>
+        <h3 class="title">Contact Info</h3>
 
         <div class="info">
             <h3> <i class="fas fa-envelope"></i> roner@hotmail.ph </h3>
@@ -247,11 +308,11 @@
 
     <form action="">
 
-        <input type="text" placeholder="name" class="box">
-        <input type="email" placeholder="email" class="box">
-        <input type="text" placeholder="project" class="box">
-        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
-        <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
+        <input type="text" placeholder="Name" class="box">
+        <input type="email" placeholder="Email" class="box">
+        <input type="text" placeholder="Subject" class="box">
+        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="Message"></textarea>
+        <button type="submit" class="btn"> Send <i class="fas fa-paper-plane"></i> </button>
 
     </form>
 
@@ -265,7 +326,7 @@
 <!-- scroll top button  -->
 
 <a href="#home" class="top">
-    <img src="scroll-top-img.png" alt="">
+    <img src="images/scroll-top-img.png" alt="">
 </a>
 
 
