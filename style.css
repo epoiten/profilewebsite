@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
 :root{
-    --yellow: orange;
+    --yellow: rgb(172, 144, 228);
 }
 
 *{
@@ -41,6 +41,10 @@ body{
     overflow-x: hidden;
     padding-left: 35rem;
     background-image: url(images/background.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 section{
@@ -92,6 +96,9 @@ header{
     justify-content: center;
     flex-flow: column;
     text-align: center;
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 header .logo {
@@ -99,7 +106,7 @@ header .logo {
     left: 1rem;
     top: 1rem;
     padding: 0;
-    width: 10rem;
+    width: 7rem;
 }
 
 header .logo img{
@@ -264,7 +271,7 @@ header .navbar ul li a:hover{
 .education .box-container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-evenly;
     flex-wrap: wrap;
     padding:1rem 0;
     padding-left: 3rem;
@@ -285,7 +292,8 @@ header .navbar ul li a:hover{
 
 .education .box-container .box span{
     font-size: 1.3rem;
-    background:#222;
+    font-weight: 700;
+    background:var(--yellow);
     color:#fff;
     border-radius: 5rem;
     padding:.5rem 2.5rem;
