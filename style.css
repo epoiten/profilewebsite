@@ -628,3 +628,34 @@ header .navbar ul li a:hover{
     transition-duration: 0.5s;
  }
 
+ .interest .content-container h2{
+    padding: 2rem;
+    color: white;
+    font-size: 3rem;
+ }
+
+ .interest .content-container .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 4rem;
+ }
+
+ .interest .content-container .box .box-content{
+    width:18rem;
+    margin: 1rem;
+    border-radius: 2rem;
+ }
+
+ .interest .content-container .box .box-content img{
+    width: 100%;
+    border-radius: 2rem;
+    border: .2rem solid var(--yellow);
+ }
+
+ .interest .content-container .box .box-content iframe{
+    width: 100%;
+    border-radius: 2rem;
+    border: .2rem solid var(--yellow);
+ }
