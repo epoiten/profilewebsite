@@ -201,6 +201,31 @@ header .navbar ul li a:hover{
     color:var(--yellow);
 }
 
+.home {
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    align-items: center;
+
+ }
+
+ .hero {
+    align-items: center;
+    height: 100%;
+ }
+
+ .hero img {
+    width: 100%;
+    resize: both;
+ }
+
+ .hero img:hover {
+    width: 110%;
+    transform: rotate(5deg);
+    transition-delay: 0.2s;
+    transition-duration: 0.5s;
+ }
+ 
 .about .row{
     display: flex;
     align-items: center;
@@ -244,6 +269,7 @@ header .navbar ul li a:hover{
 
 .about .row .counter .box{
     width:12rem;
+    height: 12rem;
     background:#222;
     text-align: center;
     align-items: center;
@@ -408,6 +434,44 @@ header .navbar ul li a:hover{
 
 .project .box-container .box:hover img{
     transform: scale(1.2);
+}
+
+.interest .content-container h2{
+    padding: 2rem;
+    color: white;
+    font-size: 3rem;
+    border-bottom: .2rem solid var(--yellow);
+ }
+
+ .interest .content-container .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 4rem;
+ }
+
+ .interest .content-container .box .box-content{
+    width:18rem;
+    margin: 1rem;
+    border-radius: 2rem;
+ }
+
+ .interest .content-container .box .box-content img{
+    width: 100%;
+    border-radius: 2rem;
+    border: .2rem solid var(--yellow);
+ }
+
+ .interest .content-container .box .box-content iframe{
+    width: 100%;
+    border-radius: 2rem;
+    border: .2rem solid var(--yellow);
+ }
+
+ .interest .content-container .box .box-spotify{
+    margin: 1rem;
+    border-radius: 2rem;
 }
 
 .contact .row{
@@ -595,59 +659,4 @@ header .navbar ul li a:hover{
     padding: 1rem 0;
  }
 
- .home {
-    display: flex;
-    justify-content:center;
-    flex-direction: row;
-    align-items: center;
 
- }
-
- .hero {
-    align-items: center;
-    height: 100%;
- }
-
- .hero img {
-    width: 100%;
-    resize: both;
- }
-
- .hero img:hover {
-    width: 110%;
-    transform: rotate(5deg);
-    transition-delay: 0.2s;
-    transition-duration: 0.5s;
- }
-
- .interest .content-container h2{
-    padding: 2rem;
-    color: white;
-    font-size: 3rem;
- }
-
- .interest .content-container .box{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding:2rem 4rem;
- }
-
- .interest .content-container .box .box-content{
-    width:18rem;
-    margin: 1rem;
-    border-radius: 2rem;
- }
-
- .interest .content-container .box .box-content img{
-    width: 100%;
-    border-radius: 2rem;
-    border: .2rem solid var(--yellow);
- }
-
- .interest .content-container .box .box-content iframe{
-    width: 100%;
-    border-radius: 2rem;
-    border: .2rem solid var(--yellow);
- }
