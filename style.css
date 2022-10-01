@@ -224,13 +224,12 @@ header .navbar ul li a:hover{
 
 .about .row .info h3 span{
     color:#eee;
-    padding:0 .5rem;
 }
 
 .about .row .intro{
     font-size: 2rem;
     color:white;
-    padding:2rem;
+    padding:1rem;
     line-height: 3rem;
     font-weight: normal;
     text-align: justify;
@@ -244,16 +243,17 @@ header .navbar ul li a:hover{
 }
 
 .about .row .counter .box{
-    width:15rem;
+    width:12rem;
     background:#222;
     text-align: center;
     align-items: center;
     padding: 2rem;
     margin:2rem;
+    border: 0.1rem solid var(--yellow);
 }
 
 .about .row .counter .box img{
-    width:50%;
+    width:100%;
 }
 
 .about .row .counter .box span{
@@ -348,6 +348,7 @@ header .navbar ul li a:hover{
     cursor: pointer;
     background-color: #333;
     padding: 1rem;
+    border: 0.2rem solid var(--yellow);
 }
 
 .portfolio .box-container .box h3{
@@ -396,6 +397,7 @@ header .navbar ul li a:hover{
     cursor: pointer;
     background-color: #333;
     padding: 1rem;
+    border: 0.2rem solid var(--yellow);
 }
 
 .project .box-container .box img{
@@ -580,16 +582,6 @@ header .navbar ul li a:hover{
 
  }
 
-
-
-
-
-
- .about p{
-    font-size:2rem;
-    color:#eee;
-    padding: 1rem 0;
- }
 
  .project p{
     font-size:2rem;
