@@ -273,8 +273,9 @@ header .navbar ul li a:hover{
     text-align: center;
     align-items: center;
     padding: 2rem;
-    margin:2rem;
+    margin:4rem;
     border: 0.1rem solid var(--yellow);
+    display:inline-block;
 }
 
 .about .row .counter .box img{
@@ -619,10 +620,10 @@ header .navbar ul li a:hover{
         margin:0 3rem;
     }
 
-    .about .row .counter .box{
-        width: 100%;
+   /** .about .row .counter .box{
+        width: 50%;
     }
- 
+    **/
     .education .box-container .box{
         width:100%;
     }
