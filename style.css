@@ -447,6 +447,7 @@ header .navbar ul li a:hover{
     width:18rem;
     margin: 1rem;
     border-radius: 2rem;
+    display: inline-block;
  }
 
  .interest .content-container .box .box-content img{
