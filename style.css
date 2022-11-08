@@ -375,6 +375,8 @@ header .navbar ul li a:hover{
 
 .portfolio .box-container .box h4{
     color: white;
+    overflow: auto;
+    text-overflow: ellipsis;
 }
 
 .portfolio .box-container .box img{
@@ -428,7 +430,14 @@ header .navbar ul li a:hover{
     transform: scale(1.2);
 }
 
+.interest .content-container{
+    
+    max-width: 300rem;
+}
+
+
 .interest .content-container h2{
+    margin-top: 6rem;
     padding: 2rem;
     color: white;
     font-size: 3rem;
@@ -436,36 +445,61 @@ header .navbar ul li a:hover{
  }
 
  .interest .content-container .box{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
     padding:2rem 4rem;
+    overflow-x:scroll;     
+    white-space: nowrap;
  }
 
  .interest .content-container .box .box-content{
-    width:18rem;
     margin: 1rem;
     border-radius: 2rem;
     display: inline-block;
  }
-
- .interest .content-container .box .box-content img{
-    width: 100%;
+ 
+ .interest .content-container .box .box-content a{
+    width: 18rem;
+ }
+ .interest .content-container .box .box-content a img{
+    width: 18rem;
     border-radius: 2rem;
     border: .2rem solid var(--yellow);
  }
 
  .interest .content-container .box .box-content iframe{
-    width: 100%;
+    width: 18rem;
     border-radius: 2rem;
     border: .2rem solid var(--yellow);
+    display: inline-block;
  }
 
  .interest .content-container .box .box-spotify{
     margin: 1rem;
     border-radius: 2rem;
+    display: inline-block;
 }
+
+::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white;
+    border-radius: 5px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:var(--yellow);
+  }
 
 .contact .row{
     display: flex;
