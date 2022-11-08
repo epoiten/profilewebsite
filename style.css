@@ -73,7 +73,8 @@ section{
 
 .heading{
     text-align: center;
-    margin:0 6rem;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
     font-size: 4rem;
     padding:1rem;
     border-bottom: .4rem solid #fff4;
