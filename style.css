@@ -202,12 +202,16 @@ header .navbar ul li a:hover{
     color:var(--yellow);
 }
 
+.home p em{
+    font-family: cursive;
+}
+
+
 .home {
     display: flex;
     justify-content:center;
     flex-direction: row;
     align-items: center;
-
  }
 
  .hero {
@@ -255,7 +259,7 @@ header .navbar ul li a:hover{
 .about .row .intro{
     font-size: 2rem;
     color:white;
-    padding:1rem;
+    padding:1rem 5rem;
     line-height: 3rem;
     font-weight: normal;
     text-align: justify;
@@ -400,16 +404,22 @@ header .navbar ul li a:hover{
     transform: scale(1.2);
 }
 
-
+.project h2{
+    margin-top: 6rem;
+    padding: 2rem;
+    color: white;
+    font-size: 3rem;
+    border-bottom: .2rem solid var(--yellow);
+ }
 .project .box-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding:2rem 0;
+    
+    padding:2rem 4rem;
+    overflow-x:scroll;     
+    white-space: nowrap;
 }
 
 .project .box-container .box{
+    display: inline-block;
     height: 24rem;
     width:34rem;
     border-radius: 1rem;
@@ -421,6 +431,9 @@ header .navbar ul li a:hover{
     border: 0.2rem solid var(--yellow);
 }
 
+.project .box-container .box h2{
+    color: var(--yellow);
+}
 .project .box-container .box img{
     height:100%;
     width:100%;
@@ -461,7 +474,7 @@ header .navbar ul li a:hover{
     width: 18rem;
  }
  .interest .content-container .box .box-content a img{
-    width: 18rem;
+    width: 20rem;
     border-radius: 2rem;
     border: .2rem solid var(--yellow);
  }
