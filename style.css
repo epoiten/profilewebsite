@@ -255,10 +255,11 @@ header .navbar ul li a:hover{
 }
 
 .about .row .info h3{
-    font-size: 2rem;
+    font-size: 3rem;
     color:var(--yellow);
-    padding:1rem 0;
+    padding:2rem 0;
     font-weight: normal;
+    line-height: 5rem;
 }
 
 .about .row .info h3 span{
