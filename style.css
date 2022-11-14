@@ -489,7 +489,7 @@ header .navbar ul li a:hover{
  }
 
  .interest .content-container .box .box-content iframe{
-    width: 18rem;
+    width: 20rem;
     border-radius: 2rem;
     border: .2rem solid var(--yellow);
     display: inline-block;
