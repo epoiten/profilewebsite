@@ -124,6 +124,15 @@ header .user img{
     border:.3rem solid var(--yellow);
 }
 
+header .user video{
+    height:17rem;
+    width:17rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border:.3rem solid var(--yellow);
+}
+
 header .user .name{
     font-size: 3.5rem;
     color:#fff;
