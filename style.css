@@ -454,8 +454,20 @@ header .navbar ul li a:hover{
     transform: scale(1.2);
 }
 
+.project p{
+    font-size:2rem;
+    color:#eee;
+    padding: 1rem 0;
+ }
+
+ .vlog p{
+    font-size:2rem;
+    color:#eee;
+    padding: 1rem 0;
+ }
+
+
 .interest .content-container{
-    
     max-width: 300rem;
 }
 
@@ -697,17 +709,5 @@ header .navbar ul li a:hover{
 
  }
 
-
- .project p{
-    font-size:2rem;
-    color:#eee;
-    padding: 1rem 0;
- }
-
- .vlog p{
-    font-size:2rem;
-    color:#eee;
-    padding: 1rem 0;
- }
 
 
