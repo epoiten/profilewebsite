@@ -249,21 +249,28 @@ header .navbar ul li a:hover{
 }
 
 .about .row .info{
-    flex:1 1 48rem;
     padding:2rem 1rem;
     padding-left: 6rem;
 }
 
 .about .row .info h3{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color:var(--yellow);
-    padding:2rem 0;
+    padding:1rem 0;
     font-weight: normal;
-    line-height: 5rem;
+    line-height: 4rem;
 }
 
 .about .row .info h3 span{
     color:#eee;
+}
+
+.about .row .info .btn{
+    color:#eee;
+    font-size: 3.5rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
 
 .about .row .intro{
@@ -273,6 +280,13 @@ header .navbar ul li a:hover{
     line-height: 3rem;
     font-weight: normal;
     text-align: justify;
+}
+
+.about .row p::first-letter{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: var(--yellow);
+
 }
 
 .about .row .counter{
@@ -302,6 +316,16 @@ header .navbar ul li a:hover{
     color:var(--yellow);
 }
 
+.about .row .counter .box .rating{
+    margin-top: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.about .row .counter .box .clicked{
+    color: var(--yellow);
+}
+
 .education .box-container{
     display: flex;
     align-items: center;
@@ -322,7 +346,6 @@ header .navbar ul li a:hover{
     border-bottom-right-radius: 2rem;
     
 }
-
 
 .education .box-container .box span{
     font-size: 1.3rem;
