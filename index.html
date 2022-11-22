@@ -548,10 +548,13 @@
 
     <form action="https://formsubmit.co/roner@wt.de" method="POST">
 
-        <input type="text" placeholder="Name" class="box" required>
-        <input type="email" placeholder="email" class="box" required>
-        <input type="text" placeholder="Subject" class="box">
-        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="Message"></textarea>
+        <input type="text" name="name" placeholder="Name" class="box" required>
+        <input type="email" name="email" placeholder="Email" class="box" required>
+        <input type="text" name="subject"placeholder="Subject" class="box">
+        <textarea name="message" id="" cols="30" rows="10" class="box message" placeholder="Message"></textarea>
+        <input type="hidden" name="_next" value="https://roner.chichirita.com/">
+        <input type="hidden" name="_autoresponse" value="Thank you for reaching out. Very much appeciated! I will contact you as soon as I am able to read you messages. This is an automatic reply.">
+        <input type="hidden" name="_template" value="table">
         <button type="submit" class="btn"> Send <i class="fas fa-paper-plane"></i> </button>
     </form>
 
